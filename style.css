@@ -1,0 +1,83 @@
+/* Begin Custom Styling */
+
+body {
+  font: 18px arial, sans-serif;
+  background-image: url("nintendo2.jpg");
+  background-size: cover;
+}
+
+/* Button Styling */
+
+button,
+input[type="submit"] {
+  padding: 5px 20px;
+  margin: 0 10px 10px 0;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: lightskyblue;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #bbb;
+  float:right;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #c0eeec;
+}
+
+button.active {
+  background: #c0eeec;
+}
+
+
+
+#character-display {
+  width: 70%;
+} 
+
+.charGif {
+  float: right;
+  padding: 10px;
+}
+
+form {
+ 
+  width: 25%;
+  padding: 20px;
+  float: right;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: center;
+  float:right
+}
+
+input[type="text"] {
+  width: 50%;
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  float:right;
+  background: lightpink
+}
+
+
+.jumbotron  {
+  background-image: url("nintendo.jpg");
+  background-size: contain
+
+}
+
+#add-character {
+  float:right;
+}
+
+#character-buttons {
+
+  
+}
